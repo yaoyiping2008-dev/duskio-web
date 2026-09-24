@@ -1,0 +1,282 @@
+{
+  "source": "Public swatch colors copied from the Duskio Safari extension production palettes in SafariDarkMode/SafariExtension/Resources/engine/theme.js. This file is for the website theme showcase only and is not the rendering engine.",
+  "swatchOrder": [
+    "surfacePrimary",
+    "surfaceSecondary",
+    "surfaceTertiary",
+    "textPrimary",
+    "link"
+  ],
+  "categories": [
+    {
+      "id": "essentials",
+      "name": "Essentials",
+      "themes": ["balanced", "oledBlack", "graphite", "dim", "warm", "sepia"]
+    },
+    {
+      "id": "cool",
+      "name": "Cool",
+      "themes": ["midnightBlue", "deepSea", "nightSky", "slate", "nord", "aurora"]
+    },
+    {
+      "id": "nature",
+      "name": "Nature & Warm",
+      "themes": ["forest", "espresso", "rosePine", "softViolet"]
+    },
+    {
+      "id": "developer",
+      "name": "Developer & Creative",
+      "themes": ["solarized", "solarizedDark", "gruvbox", "dracula", "monokai", "catppuccin", "tokyoNight", "matrix"]
+    },
+    {
+      "id": "accessibility",
+      "name": "Accessibility & Special",
+      "themes": ["contrastDark", "grayscale", "mocha"]
+    }
+  ],
+  "themes": [
+    {
+      "id": "balanced",
+      "name": "Balanced Dark",
+      "surfacePrimary": "#18191c",
+      "surfaceSecondary": "#202226",
+      "surfaceTertiary": "#282a2f",
+      "textPrimary": "#e8e9eb",
+      "link": "#82b1ff"
+    },
+    {
+      "id": "oledBlack",
+      "name": "OLED Black",
+      "surfacePrimary": "#000000",
+      "surfaceSecondary": "#080808",
+      "surfaceTertiary": "#111111",
+      "textPrimary": "#f4f4f5",
+      "link": "#79adff"
+    },
+    {
+      "id": "graphite",
+      "name": "Graphite",
+      "surfacePrimary": "#1c1d1f",
+      "surfaceSecondary": "#26272a",
+      "surfaceTertiary": "#303236",
+      "textPrimary": "#e5e5e6",
+      "link": "#a8b0c0"
+    },
+    {
+      "id": "dim",
+      "name": "Dim",
+      "surfacePrimary": "#171514",
+      "surfaceSecondary": "#201c1a",
+      "surfaceTertiary": "#292320",
+      "textPrimary": "#d8d1c9",
+      "link": "#c4a98e"
+    },
+    {
+      "id": "warm",
+      "name": "Warm Night",
+      "surfacePrimary": "#1e1a17",
+      "surfaceSecondary": "#29231e",
+      "surfaceTertiary": "#352d26",
+      "textPrimary": "#f0e4d6",
+      "link": "#e3aa72"
+    },
+    {
+      "id": "sepia",
+      "name": "Sepia",
+      "surfacePrimary": "#211b15",
+      "surfaceSecondary": "#2b241c",
+      "surfaceTertiary": "#362d23",
+      "textPrimary": "#e7d8be",
+      "link": "#dab071"
+    },
+    {
+      "id": "midnightBlue",
+      "name": "Midnight Blue",
+      "surfacePrimary": "#101622",
+      "surfaceSecondary": "#151e2d",
+      "surfaceTertiary": "#1c2738",
+      "textPrimary": "#e2e8f0",
+      "link": "#7fa6f5"
+    },
+    {
+      "id": "deepSea",
+      "name": "Deep Sea",
+      "surfacePrimary": "#09191d",
+      "surfaceSecondary": "#102429",
+      "surfaceTertiary": "#173036",
+      "textPrimary": "#dcecef",
+      "link": "#55c1cf"
+    },
+    {
+      "id": "nightSky",
+      "name": "Night Sky",
+      "surfacePrimary": "#151923",
+      "surfaceSecondary": "#1d2230",
+      "surfaceTertiary": "#272d3d",
+      "textPrimary": "#e3e7ef",
+      "link": "#8ba5dd"
+    },
+    {
+      "id": "slate",
+      "name": "Slate",
+      "surfacePrimary": "#171b20",
+      "surfaceSecondary": "#20262d",
+      "surfaceTertiary": "#2a313a",
+      "textPrimary": "#e6eaf0",
+      "link": "#87a2c1"
+    },
+    {
+      "id": "nord",
+      "name": "Nord",
+      "surfacePrimary": "#242933",
+      "surfaceSecondary": "#2e3440",
+      "surfaceTertiary": "#3b4252",
+      "textPrimary": "#eceff4",
+      "link": "#81a1c1"
+    },
+    {
+      "id": "aurora",
+      "name": "Aurora",
+      "surfacePrimary": "#101a1c",
+      "surfaceSecondary": "#172427",
+      "surfaceTertiary": "#203035",
+      "textPrimary": "#e5eeee",
+      "link": "#79c7bd"
+    },
+    {
+      "id": "forest",
+      "name": "Forest",
+      "surfacePrimary": "#101811",
+      "surfaceSecondary": "#18221a",
+      "surfaceTertiary": "#213025",
+      "textPrimary": "#e3ebe1",
+      "link": "#81be86"
+    },
+    {
+      "id": "espresso",
+      "name": "Espresso",
+      "surfacePrimary": "#1c1512",
+      "surfaceSecondary": "#271d18",
+      "surfaceTertiary": "#332620",
+      "textPrimary": "#e9ddd5",
+      "link": "#ce9d7e"
+    },
+    {
+      "id": "rosePine",
+      "name": "Rose Pine",
+      "surfacePrimary": "#191724",
+      "surfaceSecondary": "#211f2d",
+      "surfaceTertiary": "#2b2839",
+      "textPrimary": "#e8e2ec",
+      "link": "#d29ab7"
+    },
+    {
+      "id": "softViolet",
+      "name": "Soft Violet",
+      "surfacePrimary": "#191724",
+      "surfaceSecondary": "#242033",
+      "surfaceTertiary": "#2e2940",
+      "textPrimary": "#ece7f3",
+      "link": "#b7a4e3"
+    },
+    {
+      "id": "solarized",
+      "name": "Solarized",
+      "surfacePrimary": "#002b36",
+      "surfaceSecondary": "#073642",
+      "surfaceTertiary": "#0d4653",
+      "textPrimary": "#eee8d5",
+      "link": "#2aa198"
+    },
+    {
+      "id": "solarizedDark",
+      "name": "Solarized Dark",
+      "surfacePrimary": "#001f27",
+      "surfaceSecondary": "#002b36",
+      "surfaceTertiary": "#073642",
+      "textPrimary": "#eee8d5",
+      "link": "#2aa198"
+    },
+    {
+      "id": "gruvbox",
+      "name": "Gruvbox",
+      "surfacePrimary": "#1d2021",
+      "surfaceSecondary": "#282828",
+      "surfaceTertiary": "#32302f",
+      "textPrimary": "#ebdbb2",
+      "link": "#83a598"
+    },
+    {
+      "id": "dracula",
+      "name": "Dracula",
+      "surfacePrimary": "#1d1e28",
+      "surfaceSecondary": "#282a36",
+      "surfaceTertiary": "#323441",
+      "textPrimary": "#f8f8f2",
+      "link": "#8be9fd"
+    },
+    {
+      "id": "monokai",
+      "name": "Monokai",
+      "surfacePrimary": "#1c1d1a",
+      "surfaceSecondary": "#272822",
+      "surfaceTertiary": "#32332c",
+      "textPrimary": "#f8f8f2",
+      "link": "#66d9ef"
+    },
+    {
+      "id": "catppuccin",
+      "name": "Catppuccin",
+      "surfacePrimary": "#1e1e2e",
+      "surfaceSecondary": "#242435",
+      "surfaceTertiary": "#313244",
+      "textPrimary": "#cdd6f4",
+      "link": "#89b4fa"
+    },
+    {
+      "id": "tokyoNight",
+      "name": "Tokyo Night",
+      "surfacePrimary": "#16161e",
+      "surfaceSecondary": "#1a1b26",
+      "surfaceTertiary": "#24283b",
+      "textPrimary": "#c0caf5",
+      "link": "#7dcfff"
+    },
+    {
+      "id": "matrix",
+      "name": "Matrix",
+      "surfacePrimary": "#050805",
+      "surfaceSecondary": "#09100a",
+      "surfaceTertiary": "#0d170f",
+      "textPrimary": "#9ae89e",
+      "link": "#59e96a"
+    },
+    {
+      "id": "contrastDark",
+      "name": "Contrast Dark",
+      "surfacePrimary": "#000000",
+      "surfaceSecondary": "#0a0a0a",
+      "surfaceTertiary": "#151515",
+      "textPrimary": "#ffffff",
+      "link": "#7db7ff"
+    },
+    {
+      "id": "grayscale",
+      "name": "Grayscale",
+      "surfacePrimary": "#121212",
+      "surfaceSecondary": "#1d1d1d",
+      "surfaceTertiary": "#292929",
+      "textPrimary": "#eeeeee",
+      "link": "#d3d3d3"
+    },
+    {
+      "id": "mocha",
+      "name": "Mocha",
+      "surfacePrimary": "#18130f",
+      "surfaceSecondary": "#211a15",
+      "surfaceTertiary": "#2c221c",
+      "textPrimary": "#eee4dc",
+      "link": "#d3a889"
+    }
+  ]
+}

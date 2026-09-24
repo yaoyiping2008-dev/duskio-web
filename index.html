@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Duskio – Dark Mode for Safari</title>
+  <meta name="description" content="Duskio brings customizable dark mode to Safari with 27 themes, smart media preservation, per-site controls, and privacy-first local processing.">
+  <link rel="canonical" href="https://duskio.net/">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#080c1a" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#f3f5fb" media="(prefers-color-scheme: light)">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Duskio">
+  <meta property="og:title" content="Duskio – Dark Mode for Safari">
+  <meta property="og:description" content="Duskio brings customizable dark mode to Safari with 27 themes, smart media preservation, per-site controls, and privacy-first local processing.">
+  <meta property="og:url" content="https://duskio.net/">
+  <meta property="og:image" content="https://duskio.net/assets/app-icon.png">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Duskio – Dark Mode for Safari">
+  <meta name="twitter:description" content="Customizable dark mode for Safari on iPhone and iPad, with 27 themes and local processing.">
+  <meta name="twitter:image" content="https://duskio.net/assets/app-icon.png">
+  <link rel="icon" href="/assets/logo-mark.png" type="image/png">
+  <link rel="apple-touch-icon" href="/assets/logo-mark.png">
+  <link rel="stylesheet" href="/css/main.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Duskio",
+    "alternateName": "Duskio – Dark Mode for Safari",
+    "applicationCategory": "UtilitiesApplication",
+    "operatingSystem": "iOS, iPadOS",
+    "description": "Duskio brings customizable dark mode to Safari with 27 themes, smart media preservation, per-site controls, and privacy-first local processing.",
+    "url": "https://duskio.net/",
+    "image": "https://duskio.net/assets/app-icon.png",
+    "featureList": [
+      "Dark mode for Safari websites",
+      "27 built-in themes",
+      "Smart Preserve for photos, video, logos, and charts",
+      "Standard, Compatibility, and Safe Mode",
+      "Per-site controls",
+      "Local processing on device"
+    ],
+    "publisher": {
+      "@type": "Organization",
+      "name": "Duskio",
+      "url": "https://duskio.net/",
+      "email": "support@duskio.net"
+    }
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="/">
+        <img src="/assets/logo-mark.png" width="36" height="36" alt="">
+        <span>Duskio</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <span class="nav-toggle-bars" aria-hidden="true"></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="/" aria-current="page">Home</a></li>
+          <li><a href="/#themes">Themes</a></li>
+          <li><a href="/setup/">Setup</a></li>
+          <li><a href="/support/">Support</a></li>
+          <li><a href="/privacy/">Privacy</a></li>
+        </ul>
+        <a class="btn btn-store is-disabled" data-app-store data-store-label="short" aria-disabled="true" tabindex="-1">Coming Soon</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content">
+    <section class="hero wrap">
+      <p class="hero-kicker">Dark Mode for Safari</p>
+      <h1>Duskio</h1>
+      <p class="brand-line">Keep the website.<br>Change the light.</p>
+      <p class="support">Turn bright websites into comfortable dark experiences while preserving images, videos, branding, and layout.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#themes">View Themes</a>
+        <a class="btn btn-secondary" href="/setup/">Setup Guide</a>
+      </div>
+      <p class="hero-note">Built for Safari on iPhone and iPad.</p>
+    </section>
+
+    <section class="section visual-section" aria-labelledby="preview-title">
+      <div class="wrap">
+        <div class="section-copy">
+          <p class="eyebrow">Preview</p>
+          <h2 id="preview-title">Bright pages, calmer nights</h2>
+          <p>Duskio restyles webpage presentation in Safari. Photos, video, and brand graphics stay recognizable instead of being blindly inverted.</p>
+        </div>
+        <figure>
+          <div class="visual-stage">
+            <div class="browser is-light" aria-hidden="true">
+              <div class="browser-bar">
+                <div class="browser-dots"><span></span><span></span><span></span></div>
+                <div class="browser-url">harbor-journal.example/evening-read</div>
+              </div>
+              <div class="article">
+                <div class="article-photo"></div>
+                <p class="article-kicker">Field notes</p>
+                <h3>A walk after sunset</h3>
+                <div class="article-line"></div>
+                <div class="article-line"></div>
+                <div class="article-line short"></div>
+              </div>
+            </div>
+            <div class="visual-arrow" aria-hidden="true"><span>Duskio</span></div>
+            <div class="browser is-dark" aria-hidden="true">
+              <div class="browser-bar">
+                <div class="browser-dots"><span></span><span></span><span></span></div>
+                <div class="browser-url">harbor-journal.example/evening-read</div>
+              </div>
+              <div class="article">
+                <div class="article-photo"></div>
+                <p class="article-kicker">Field notes</p>
+                <h3>A walk after sunset</h3>
+                <div class="article-line"></div>
+                <div class="article-line"></div>
+                <div class="article-line short"></div>
+              </div>
+            </div>
+            <div class="popup-mock" aria-hidden="true">
+              <div class="popup-row">
+                <h3>Duskio</h3>
+                <span class="popup-pill">Ready</span>
+              </div>
+              <div class="popup-row"><span>This Website</span><span>On</span></div>
+              <div class="segment-mock">
+                <span class="is-on">Standard</span>
+                <span>Compatibility</span>
+                <span>Safe Mode</span>
+              </div>
+              <div class="popup-row">
+                <span class="theme-swatch" data-theme="midnightBlue"><span></span><span></span><span></span><span></span><span></span></span>
+                <span>Midnight Blue</span>
+              </div>
+            </div>
+          </div>
+          <figcaption class="sr-only">Conceptual illustration of a bright article becoming a dark article with Duskio, while a colorful photo stays intact.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section" id="features" aria-labelledby="features-title">
+      <div class="wrap">
+        <div class="section-copy">
+          <p class="eyebrow">Why Duskio</p>
+          <h2 id="features-title">Comfortable dark reading, with control</h2>
+          <p>Duskio is a Safari extension that applies dark styling locally on your device. You choose the theme, the appearance policy, and whether a website stays on or off.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <div class="icon-badge" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="8"/><path d="M4 12h16"/></svg>
+            </div>
+            <h3>Works across websites</h3>
+            <p>Duskio applies dark styling to websites that do not provide a comfortable native dark experience.</p>
+          </article>
+          <article class="feature-card">
+            <div class="icon-badge" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="8.5" cy="10" r="1.4"/><path d="M21 16l-5.5-5.5L7 19"/></svg>
+            </div>
+            <h3>Smart Preserve</h3>
+            <p>Preserve photos, video, graphics, logos, icons, QR codes, charts, and important brand colors instead of blindly inverting the page.</p>
+          </article>
+          <article class="feature-card">
+            <div class="icon-badge" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="4" y="4" width="7" height="7" rx="1.5"/><rect x="13" y="4" width="7" height="7" rx="1.5"/><rect x="4" y="13" width="7" height="7" rx="1.5"/><rect x="13" y="13" width="7" height="7" rx="1.5"/></svg>
+            </div>
+            <h3>27 built-in themes</h3>
+            <p>Choose from a wide range of dark palettes, from OLED Black to warmer night tones and high-contrast options.</p>
+          </article>
+          <article class="feature-card">
+            <div class="icon-badge" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 8h14M5 12h10M5 16h7"/></svg>
+            </div>
+            <h3>Compatibility controls</h3>
+            <p>Switch among Standard, Compatibility, and Safe Mode when a website needs a gentler approach.</p>
+          </article>
+          <article class="feature-card">
+            <div class="icon-badge" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="8"/><path d="M12 8v8M8 12h8"/></svg>
+            </div>
+            <h3>Per-site control</h3>
+            <p>Enable, disable, or adjust Duskio for individual websites from the Safari popup or in the app.</p>
+          </article>
+          <article class="feature-card">
+            <div class="icon-badge" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 18c3-8 13-8 16 0"/><circle cx="12" cy="9" r="3"/></svg>
+            </div>
+            <h3>20 UI languages</h3>
+            <p>The app and extension include broad localization support, including English, Spanish, Japanese, Korean, Arabic, and more.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="appearance" aria-labelledby="appearance-title">
+      <div class="wrap">
+        <div class="section-copy">
+          <p class="eyebrow">Appearance</p>
+          <h2 id="appearance-title">Follow System, Always Dark, or Always Light</h2>
+          <p>Theme selection and appearance policy are separate. Choosing a theme does not override Always Light or a light system appearance.</p>
+        </div>
+        <div class="mode-grid">
+          <article class="mode-card">
+            <h3>Follow System</h3>
+            <p>Uses the selected Duskio theme when the device is in Dark Mode. When the device is in Light Mode, Duskio leaves webpages light.</p>
+          </article>
+          <article class="mode-card">
+            <h3>Always Dark</h3>
+            <p>Keeps supported webpages dark regardless of device appearance, using your selected Duskio theme.</p>
+          </article>
+          <article class="mode-card">
+            <h3>Always Light</h3>
+            <p>Leaves webpages light and does not apply dark themes. Your saved theme remains available when you switch back.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="themes" aria-labelledby="themes-title">
+      <div class="wrap">
+        <div class="section-copy">
+          <p class="eyebrow">Theme library</p>
+          <h2 id="themes-title">27 built-in themes</h2>
+          <p>Every theme is a complete dark palette. Swatches below use the same production colors as the Duskio Safari popup.</p>
+        </div>
+
+        <div class="theme-group">
+          <h3 class="theme-group-title">Essentials</h3>
+          <ul class="theme-grid">
+            <li class="theme-card" data-theme="balanced"><div class="theme-swatch" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div><p class="theme-name">Balanced Dark</p></li>
+            <li class="theme-card" data-theme="oledBlack"><div class="theme-swatch" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div><p class="theme-name">OLED Black</p></li>
+            <li class="theme-card" data-theme="graphite"><div class="theme-swatch" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div><p class="theme-name">Graphite</p></li>
+            <li class="theme-card" data-theme="dim"><div class="theme-swatch" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div><p class="theme-name">Dim</p></li>
+            <li class="theme-card" data-theme="warm"><div class="theme-swatch" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div><p class="theme-name">Warm Night</p></li>
+            <li class="theme-card" data-theme="sepia"><div class="theme-swatch" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div><p class="theme-name">Sepia</p></li>
+          </ul>
+        </div>
+
+        <div class="theme-group">
+          <h3 class="theme-group-title">Cool</h3>
+          <ul class="theme-grid">
+            <li class="theme-card" data-theme="midnightBlue"><div class="theme-swatch" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div><p class="theme-name">Midnight Blue</p></li>
+            <li class="theme-card" data-theme="deepSea"><div class="theme-swatch" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div><p class="theme-name">Deep Sea</p></li>
+            <li class="theme-card" data-theme="nightSky"><div class="theme-swatch" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div><p class="theme-name">Night Sky</p></li>
+            <li class="theme-card" data-theme="slate"><div class="theme-swatch" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div><p class="theme-name">Slate</p></li>
+            <li class="theme-card" data-theme="nord"><div class="theme-swatch" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div><p class="theme-name">Nord</p></li>
+            <li class="theme-card" data-theme="aurora"><div class="theme-swatch" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div><p class="theme-name">Aurora</p></li>
+          </ul>
+        </div>
+
+        <div class="theme-group">
+          <h3 class="theme-group-title">Nature &amp; Warm</h3>
+          <ul class="theme-grid">
+            <li class="theme-card" data-theme="forest"><div class="theme-swatch" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div><p class="theme-name">Forest</p></li>
+            <li class="theme-card" data-theme="espresso"><div class="theme-swatch" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div><p class="theme-name">Espresso</p></li>
+            <li class="theme-card" data-theme="rosePine"><div class="theme-swatch" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div><p class="theme-name">Rose Pine</p></li>
+            <li class="theme-card" data-theme="softViolet"><div class="theme-swatch" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div><p class="theme-name">Soft Violet</p></li>
+          </ul>
+        </div>
+
+        <div class="theme-group">
+          <h3 class="theme-group-title">Developer &amp; Creative</h3>
+          <ul class="theme-grid">
+            <li class="theme-card" data-theme="solarized"><div class="theme-swatch" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div><p class="theme-name">Solarized</p></li>
+            <li class="theme-card" data-theme="solarizedDark"><div class="theme-swatch" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div><p class="theme-name">Solarized Dark</p></li>
+            <li class="theme-card" data-theme="gruvbox"><div class="theme-swatch" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div><p class="theme-name">Gruvbox</p></li>
+            <li class="theme-card" data-theme="dracula"><div class="theme-swatch" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div><p class="theme-name">Dracula</p></li>
+            <li class="theme-card" data-theme="monokai"><div class="theme-swatch" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div><p class="theme-name">Monokai</p></li>
+            <li class="theme-card" data-theme="catppuccin"><div class="theme-swatch" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div><p class="theme-name">Catppuccin</p></li>
+            <li class="theme-card" data-theme="tokyoNight"><div class="theme-swatch" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div><p class="theme-name">Tokyo Night</p></li>
+            <li class="theme-card" data-theme="matrix"><div class="theme-swatch" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div><p class="theme-name">Matrix</p></li>
+          </ul>
+        </div>
+
+        <div class="theme-group">
+          <h3 class="theme-group-title">Accessibility &amp; Special</h3>
+          <ul class="theme-grid">
+            <li class="theme-card" data-theme="contrastDark"><div class="theme-swatch" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div><p class="theme-name">Contrast Dark</p></li>
+            <li class="theme-card" data-theme="grayscale"><div class="theme-swatch" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div><p class="theme-name">Grayscale</p></li>
+            <li class="theme-card" data-theme="mocha"><div class="theme-swatch" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div><p class="theme-name">Mocha</p></li>
+          </ul>
+        </div>
+        <p class="fine-print">Theme names describe appearance only. Duskio is not affiliated with, endorsed by, or connected to any third-party theme project.</p>
+      </div>
+    </section>
+
+    <section class="section" id="compatibility" aria-labelledby="compat-title">
+      <div class="wrap">
+        <div class="section-copy">
+          <p class="eyebrow">Compatibility</p>
+          <h2 id="compat-title">Three modes, kept simple</h2>
+          <p>Websites are built in many different ways. Duskio includes three rendering modes so you can recover a difficult page without turning the extension off everywhere. Not every website will look perfect.</p>
+        </div>
+        <div class="mode-grid">
+          <article class="mode-card">
+            <h3>Standard</h3>
+            <p>Best default for most websites. Applies the selected dark theme while preserving important media and branding.</p>
+          </article>
+          <article class="mode-card">
+            <h3>Compatibility</h3>
+            <p>Use when a website has unusual styles or components. It keeps more of the original styling while still reducing glare.</p>
+          </article>
+          <article class="mode-card">
+            <h3>Safe Mode</h3>
+            <p>A more conservative rendering mode for difficult websites. It makes fewer changes and prioritizes usability.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="privacy-band" id="privacy-first" aria-labelledby="privacy-title">
+      <div class="wrap">
+        <div class="section-copy">
+          <p class="eyebrow">Privacy-first</p>
+          <h2 id="privacy-title">Processed on your device</h2>
+          <p>Settings and webpage processing remain local to the device. Duskio does not transmit your browsing history or webpage content to us.</p>
+        </div>
+        <ul class="checklist">
+          <li>No account is required for Duskio itself.</li>
+          <li>No advertising SDK, analytics backend, or telemetry is used by Duskio.</li>
+          <li>Webpage styling happens locally in Safari after you grant website access.</li>
+          <li>Website access lets Duskio restyle pages on your device. It does not mean browsing content is sent to the developer.</li>
+        </ul>
+        <p class="fine-print"><a href="/privacy/">Read the Privacy Policy</a></p>
+      </div>
+    </section>
+
+    <section class="section" id="setup" aria-labelledby="setup-title">
+      <div class="wrap">
+        <div class="section-copy">
+          <p class="eyebrow">Get started</p>
+          <h2 id="setup-title">Set up in 3 simple steps</h2>
+          <p>Safari controls extension enablement and website access. After that, Duskio is ready in the page menu.</p>
+        </div>
+        <div class="step-grid">
+          <article class="step-card">
+            <span class="step-num">1</span>
+            <h3>Enable Duskio in Safari</h3>
+            <p>Install Duskio, open Safari, then enable the extension from Manage Extensions.</p>
+          </article>
+          <article class="step-card">
+            <span class="step-num">2</span>
+            <h3>Allow website access</h3>
+            <p>Grant access to the sites you want darkened. Allowing Duskio on all websites gives the intended universal experience.</p>
+          </article>
+          <article class="step-card">
+            <span class="step-num">3</span>
+            <h3>Choose a theme</h3>
+            <p>Open a webpage and use the Duskio popup to set appearance, theme, and per-site options.</p>
+          </article>
+        </div>
+        <p class="fine-print"><a href="/setup/">Open the full setup guide</a></p>
+      </div>
+    </section>
+
+    <section class="section" id="faq" aria-labelledby="faq-title">
+      <div class="wrap">
+        <div class="section-copy">
+          <p class="eyebrow">Questions</p>
+          <h2 id="faq-title">Common answers</h2>
+        </div>
+        <div class="faq-list">
+          <details>
+            <summary>Why is a website still light?</summary>
+            <p>Confirm Duskio is enabled, website access is granted, This Website is on, and Appearance is not set to Always Light. If the device is in Light Mode and Follow System is selected, Duskio will not darken pages. Then reload the page.</p>
+          </details>
+          <details>
+            <summary>What does Follow System mean?</summary>
+            <p>Follow System uses the selected Duskio theme when the device is in Dark Mode. It leaves webpages light when the device is in Light Mode.</p>
+          </details>
+          <details>
+            <summary>Why don’t themes apply in Always Light?</summary>
+            <p>Always Light leaves webpages light and does not apply dark themes. Your theme stays saved for when you choose Follow System or Always Dark.</p>
+          </details>
+          <details>
+            <summary>What does “Fix This Site” do?</summary>
+            <p>It helps recover a page that looks wrong. Choose the issue you see, then try Compatibility, Safe Mode, turn Duskio off for that site, or restore Standard. The choice stays on your device.</p>
+          </details>
+        </div>
+        <p class="fine-print"><a href="/support/">More support and troubleshooting</a></p>
+      </div>
+    </section>
+
+    <section class="cta-band" aria-labelledby="cta-title">
+      <div class="wrap">
+        <h2 id="cta-title">Dark Mode for Safari, coming to the App Store</h2>
+        <p>Duskio is being prepared for iPhone and iPad. The App Store listing will appear here when it is live.</p>
+        <div class="cta-actions">
+          <a class="btn btn-store is-disabled" data-app-store aria-disabled="true" tabindex="-1">Coming Soon on the App Store</a>
+          <a class="btn btn-secondary" href="/setup/">Setup Guide</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-brand">Duskio</div>
+      <p class="footer-tag">Dark Mode for Safari</p>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="/">Home</a>
+        <a href="/setup/">Setup</a>
+        <a href="/support/">Support</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
+      </nav>
+      <p><a href="mailto:support@duskio.net">support@duskio.net</a></p>
+      <p>© 2026 Duskio</p>
+    </div>
+  </footer>
+  <script src="/js/main.js"></script>
+</body>
+</html>
