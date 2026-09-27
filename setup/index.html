@@ -23,6 +23,7 @@
   <link rel="icon" href="/assets/logo-mark.png" type="image/png">
   <link rel="apple-touch-icon" href="/assets/logo-mark.png">
   <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/setup.css">
 </head>
 <body>
   <a class="skip-link" href="#content">Skip to content</a>
@@ -48,139 +49,176 @@
     </div>
   </header>
 
-  <main id="content" class="wrap">
-    <header class="page-hero">
-      <p class="eyebrow">Safari on iPhone and iPad</p>
-      <h1>Set Up Duskio in Safari</h1>
-      <p>Safari controls whether the extension is enabled and which websites it can restyle. After these steps, Duskio can apply your selected theme locally on authorized pages.</p>
+  <main id="content" class="wrap setup-page-content">
+    <header class="page-hero setup-hero">
+      <div class="setup-hero-copy">
+        <p class="eyebrow" data-i18n="eyebrow">Safari on iPhone and iPad</p>
+        <h1 data-i18n="title">Set Up Duskio in Safari</h1>
+        <p data-i18n="description">Safari controls whether the extension is enabled and which websites it can restyle. After these steps, Duskio can apply your selected theme locally on authorized pages.</p>
+      </div>
+      <div class="setup-language-control">
+        <label for="setup-language" data-i18n="languageLabel">Language</label>
+        <select id="setup-language" name="setup-language">
+          <option value="en">English</option>
+          <option value="ar">العربية</option>
+          <option value="bg">Български</option>
+          <option value="zh-Hans">简体中文</option>
+          <option value="hr">Hrvatski</option>
+          <option value="nl">Nederlands</option>
+          <option value="fr">Français</option>
+          <option value="de">Deutsch</option>
+          <option value="hu">Magyar</option>
+          <option value="it">Italiano</option>
+          <option value="ja">日本語</option>
+          <option value="ko">한국어</option>
+          <option value="lt">Lietuvių</option>
+          <option value="pt-BR">Português (Brasil)</option>
+          <option value="pt-PT">Português (Portugal)</option>
+          <option value="ro">Română</option>
+          <option value="ru">Русский</option>
+          <option value="sr">Српски</option>
+          <option value="es">Español</option>
+          <option value="uk">Українська</option>
+          <option value="vi">Tiếng Việt</option>
+          <option value="pl">Polski</option>
+          <option value="da">Dansk</option>
+          <option value="fi">Suomi</option>
+          <option value="ms">Bahasa Melayu</option>
+          <option value="nb">Norsk bokmål</option>
+          <option value="sv">Svenska</option>
+          <option value="th">ไทย</option>
+          <option value="tr">Türkçe</option>
+          <option value="el">Ελληνικά</option>
+        </select>
+      </div>
     </header>
 
     <ol class="setup-list">
       <li class="setup-step">
         <div>
-          <h2>1. Install and open Duskio</h2>
-          <p>Install Duskio from the App Store, then open the Duskio app once so setup guidance and settings are available on the device.</p>
+          <h2 data-i18n="step1Title">1. Install and open Duskio</h2>
+          <p data-i18n="step1Text">Install Duskio from the App Store, then open the Duskio app once so setup guidance and settings are available on the device.</p>
         </div>
         <figure class="setup-shot">
           <a href="/assets/setup/01-open-duskio.png" target="_blank" rel="noopener">
             <img src="/assets/setup/01-open-duskio.png" width="1284" height="2778" alt="Open the Duskio app" decoding="async">
           </a>
-          <figcaption>Open the Duskio app</figcaption>
+          <figcaption data-i18n="step1Caption">Open the Duskio app</figcaption>
         </figure>
       </li>
       <li class="setup-step">
         <div>
-          <h2>2. Open Safari</h2>
-          <p>Duskio works inside Safari. Open Safari and go to any webpage you want to read more comfortably.</p>
+          <h2 data-i18n="step2Title">2. Open Safari</h2>
+          <p data-i18n="step2Text">Duskio works inside Safari. Open Safari and go to any webpage you want to read more comfortably.</p>
         </div>
         <figure class="setup-shot">
           <a href="/assets/setup/02-open-safari.png" target="_blank" rel="noopener">
             <img src="/assets/setup/02-open-safari.png" width="1284" height="2778" alt="Open Safari" loading="lazy" decoding="async">
           </a>
-          <figcaption>Open Safari</figcaption>
+          <figcaption data-i18n="step2Caption">Open Safari</figcaption>
         </figure>
       </li>
       <li class="setup-step">
         <div>
-          <h2>3. Open Safari’s page or extensions menu</h2>
-          <p>In the Safari toolbar or address area, open the page menu. Depending on your iOS version, this may appear as a page-settings control or an extensions control.</p>
+          <h2 data-i18n="step3Title">3. Open Safari’s page or extensions menu</h2>
+          <p data-i18n="step3Text">In the Safari toolbar or address area, open the page menu. Depending on your iOS version, this may appear as a page-settings control or an extensions control.</p>
         </div>
         <figure class="setup-shot">
           <a href="/assets/setup/03-page-menu.png" target="_blank" rel="noopener">
             <img src="/assets/setup/03-page-menu.png" width="1284" height="2778" alt="Open the Safari page menu" loading="lazy" decoding="async">
           </a>
-          <figcaption>Open the Safari page menu</figcaption>
+          <figcaption data-i18n="step3Caption">Open the Safari page menu</figcaption>
         </figure>
       </li>
       <li class="setup-step">
         <div>
-          <h2>4. Open Manage Extensions</h2>
-          <p>Choose Manage Extensions to see Safari Web Extensions installed on this device.</p>
+          <h2 data-i18n="step4Title">4. Open Manage Extensions</h2>
+          <p data-i18n="step4Text">Choose Manage Extensions to see Safari Web Extensions installed on this device.</p>
         </div>
         <figure class="setup-shot">
           <a href="/assets/setup/04-manage-extensions.png" target="_blank" rel="noopener">
             <img src="/assets/setup/04-manage-extensions.png" width="1284" height="2778" alt="Manage Safari extensions" loading="lazy" decoding="async">
           </a>
-          <figcaption>Manage Safari extensions</figcaption>
+          <figcaption data-i18n="step4Caption">Manage Safari extensions</figcaption>
         </figure>
       </li>
       <li class="setup-step">
         <div>
-          <h2>5. Enable Duskio</h2>
-          <p>Turn Duskio on. Until this switch is enabled, Safari will not load the extension on webpages.</p>
+          <h2 data-i18n="step5Title">5. Enable Duskio</h2>
+          <p data-i18n="step5Text">Turn Duskio on. Until this switch is enabled, Safari will not load the extension on webpages.</p>
         </div>
         <figure class="setup-shot">
           <a href="/assets/setup/05-enable-duskio.png" target="_blank" rel="noopener">
             <img src="/assets/setup/05-enable-duskio.png" width="1284" height="2778" alt="Enable Duskio" loading="lazy" decoding="async">
           </a>
-          <figcaption>Enable Duskio</figcaption>
+          <figcaption data-i18n="step5Caption">Enable Duskio</figcaption>
         </figure>
       </li>
       <li class="setup-step">
         <div>
-          <h2>6. Allow website access</h2>
-          <p>Safari asks which websites the extension may access. Duskio needs this permission to restyle page appearance on your device. Access does not send browsing content to us.</p>
+          <h2 data-i18n="step6Title">6. Allow website access</h2>
+          <p data-i18n="step6Text">Safari asks which websites the extension may access. Duskio needs this permission to restyle page appearance on your device. Access does not send browsing content to us.</p>
         </div>
         <figure class="setup-shot">
           <a href="/assets/setup/06-allow-all-websites.png" target="_blank" rel="noopener">
             <img src="/assets/setup/06-allow-all-websites.png" width="1284" height="2778" alt="Allow Duskio on all websites" loading="lazy" decoding="async">
           </a>
-          <figcaption>Allow Duskio on all websites</figcaption>
+          <figcaption data-i18n="step6Caption">Allow Duskio on all websites</figcaption>
         </figure>
       </li>
       <li class="setup-step">
         <div>
-          <h2>7. Prefer access on all websites</h2>
-          <p>For the intended universal dark-mode experience, allow Duskio on all websites. You can still disable Duskio for individual sites later from the popup.</p>
+          <h2 data-i18n="step7Title">7. Prefer access on all websites</h2>
+          <p data-i18n="step7Text">For the intended universal dark-mode experience, allow Duskio on all websites. You can still disable Duskio for individual sites later from the popup.</p>
         </div>
         <figure class="setup-shot">
           <a href="/assets/setup/07-open-popup.png" target="_blank" rel="noopener">
             <img src="/assets/setup/07-open-popup.png" width="1284" height="2778" alt="Open the Duskio Safari popup" loading="lazy" decoding="async">
           </a>
-          <figcaption>Open the Duskio Safari popup</figcaption>
+          <figcaption data-i18n="step7Caption">Open the Duskio Safari popup</figcaption>
         </figure>
       </li>
       <li class="setup-step">
         <div>
-          <h2>8. Return to Safari and open a webpage</h2>
-          <p>Go back to the page, or visit another HTTP or HTTPS website. If the page was already open, reload it after enabling access.</p>
+          <h2 data-i18n="step8Title">8. Return to Safari and open a webpage</h2>
+          <p data-i18n="step8Text">Go back to the page, or visit another HTTP or HTTPS website. If the page was already open, reload it after enabling access.</p>
         </div>
         <figure class="setup-shot">
           <a href="/assets/setup/08-choose-theme.png" target="_blank" rel="noopener">
             <img src="/assets/setup/08-choose-theme.png" width="1284" height="2778" alt="Choose a Duskio theme" loading="lazy" decoding="async">
           </a>
-          <figcaption>Choose a Duskio theme</figcaption>
+          <figcaption data-i18n="step8Caption">Choose a Duskio theme</figcaption>
         </figure>
       </li>
       <li class="setup-step">
         <div>
-          <h2>9. Use the Duskio popup</h2>
-          <p>Open the Duskio item in Safari’s extensions menu. From there you can turn This Website on or off, choose Standard / Compatibility / Safe Mode, and pick a theme.</p>
+          <h2 data-i18n="step9Title">9. Use the Duskio popup</h2>
+          <p data-i18n="step9Text">Open the Duskio item in Safari’s extensions menu. From there you can turn This Website on or off, choose Standard / Compatibility / Safe Mode, and pick a theme.</p>
         </div>
         <figure class="setup-shot">
           <a href="/assets/setup/09-dark-mode-working.png" target="_blank" rel="noopener">
             <img src="/assets/setup/09-dark-mode-working.png" width="1284" height="2778" alt="Duskio dark mode working in Safari" loading="lazy" decoding="async">
           </a>
-          <figcaption>Duskio dark mode working in Safari</figcaption>
+          <figcaption data-i18n="step9Caption">Duskio dark mode working in Safari</figcaption>
         </figure>
       </li>
     </ol>
 
     <section class="prose" aria-labelledby="alt-setup">
-      <h2 id="alt-setup">Another way: iOS Settings</h2>
-      <p>You can also enable Duskio from Settings: open Settings, then choose Safari → Extensions → Duskio. Enable the extension and allow access to the websites you choose.</p>
+      <h2 id="alt-setup" data-i18n="alternateTitle">Another way: iOS Settings</h2>
+      <p data-i18n="alternateText">You can also enable Duskio from Settings: open Settings, then choose Safari → Extensions → Duskio. Enable the extension and allow access to the websites you choose.</p>
     </section>
 
     <section class="prose" aria-labelledby="still-light">
-      <h2 id="still-light">If a webpage remains light</h2>
+      <h2 id="still-light" data-i18n="helpTitle">If a webpage remains light</h2>
       <ul>
-        <li>Verify Duskio is enabled in Safari Extensions.</li>
-        <li>Verify website access is granted for that site, or for all websites.</li>
-        <li>Ensure This Website is enabled in the Duskio popup.</li>
-        <li>Check Appearance in the Duskio app: Follow System only darkens pages when the device is in Dark Mode; Always Light never applies dark themes.</li>
-        <li>Reload the page.</li>
+        <li data-i18n="help1">Verify Duskio is enabled in Safari Extensions.</li>
+        <li data-i18n="help2">Verify website access is granted for that site, or for all websites.</li>
+        <li data-i18n="help3">Ensure This Website is enabled in the Duskio popup.</li>
+        <li data-i18n="help4">Check Appearance in the Duskio app: Follow System only darkens pages when the device is in Dark Mode; Always Light never applies dark themes.</li>
+        <li data-i18n="help5">Reload the page.</li>
       </ul>
-      <p>If the page still looks wrong after it is dark, see <a href="/support/">Duskio Support</a> for Compatibility, Safe Mode, and Fix This Site.</p>
+      <p data-i18n-html="helpMore">If the page still looks wrong after it is dark, see <a href="/support/">Duskio Support</a> for Compatibility, Safe Mode, and Fix This Site.</p>
     </section>
   </main>
 
@@ -200,5 +238,6 @@
     </div>
   </footer>
   <script src="/js/main.js"></script>
+  <script src="/js/setup-i18n.js"></script>
 </body>
 </html>
