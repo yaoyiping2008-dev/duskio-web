@@ -6,7 +6,7 @@
    * Leave empty until the production listing exists.
    * Example: "https://apps.apple.com/app/duskio-dark-mode-for-safari/idXXXXXXXX"
    */
-  const APP_STORE_URL = "";
+  const APP_STORE_URL = "https://apps.apple.com/app/duskio-dark-mode-extension/id6816512149";
 
   const nav = document.getElementById("site-nav");
   const toggle = document.querySelector(".nav-toggle");
