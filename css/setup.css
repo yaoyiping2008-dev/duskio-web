@@ -17,8 +17,9 @@
 .setup-language-control {
   display: grid;
   gap: 0.35rem;
-  width: min(100%, 13.5rem);
-  min-width: 11.5rem;
+  width: min(100%, 18rem);
+  min-width: 12rem;
+  max-width: 100%;
   padding-top: 0.1rem;
 }
 

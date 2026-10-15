@@ -597,6 +597,7 @@
     setText("languageLabel", copy.label);
     setText("eyebrow", copy.eyebrow);
     setText("title", copy.title);
+    document.title = copy.title;
     setText("description", copy.description);
 
     copy.steps.forEach(([stepTitle, stepText], index) => {
